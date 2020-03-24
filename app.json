@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/about/about",
+    "pages/category/category"
+  ],
+  "sitemapLocation": "sitemap99.json",
+
+
+  "window": {
+    "navigationBarBackgroundColor": "#FF5777",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Miniprogram",
+    "backgroundColor": "orange",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+
+
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabbar/2B1.png",
+        "selectedIconPath": "assets/tabbar/2B1.png"
+      },
+
+      {
+        "pagePath": "pages/category/category",
+        "text": "分裂",
+        "iconPath": "assets/tabbar/2B.png",
+        "selectedIconPath": "assets/tabbar/2B.png"
+      }
+    ]
+  }
+}
